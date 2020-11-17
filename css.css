@@ -4,3 +4,25 @@
     margin-right: auto;
     width: 50%;
   }
+  .h1 {
+      font: Coves;
+  }
+  body{
+	background-color:#1b212c;
+	}
+	p{
+        color:white;
+        text-align:center;
+	}
+	h3{
+		color:white;
+		
+	}
+	h1{
+		color:white;
+		text-align:center;
+	}
+	h2{
+		color:white;
+		text-align:center;
+	}
