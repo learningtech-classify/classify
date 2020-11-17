@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # About Classify
 
 It is a game based learning platform wherein it simulates a school environment as you discuss, share, and learn new things.
@@ -7,3 +9,4 @@ It can also be used as an ice breaker. This might help the students to get motiv
 # Who will benefit
 
 The people who will benefit the app are those in education industry specially students and instructors.
+>>>>>>> 61ad9d815d864a08a3da2a415fe99cc27690f78c
