@@ -66,6 +66,7 @@
 	<!-- End demo purposes only -->
 
 
+
 	<style>
 		#colour-variations.sleep {
 			margin-left: -140px;
@@ -166,6 +167,25 @@
 			text-decoration: none;
 			outline: none;
 		}
+
+		.container_frame {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+			padding-top: 56.25%;
+			/* 16:9 Aspect Ratio */
+		}
+
+		.responsive-iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
 	</style>
 	<!-- End demo purposes only -->
 
@@ -219,40 +239,45 @@
 			<div class="row" id="team">
 				<div class=" section-heading text-center to-animate">
 					<h2>Prototype</h2>
-					<divc class="img-fluid">
+					<div class="container_frame">
+						<iframe class="responsive-iframe"
+							src=https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhkOaaP2oWvXY1mPPzg9BGR%2FClassify%25E2%2580%2594-Quiz-App%3Fnode-id%3D1%253A2%26viewport%3D277%252C397%252C0.06648896634578705%26scaling%3Dscale-down"></iframe>
+					</div>
 
-						<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
+					<!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
 							src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhkOaaP2oWvXY1mPPzg9BGR%2FClassify%25E2%2580%2594-Quiz-App%3Fnode-id%3D1%253A2%26viewport%3D277%252C397%252C0.06648896634578705%26scaling%3Dscale-down"
-							width="1000" height="800" allowfullscreen></iframe>
+							width="1000" height="800" allowfullscreen></iframe> -->
+
+
+
+					<Center>
+						<a class="btn btn-primary" href="feedback.html" data-nav-section="feedback" role="button">Send
+							Feedback (For PC)</a>
+						<a class="btn btn-primary"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSc8wa8gmmlvyeVofsWhY70VshnO1SY0xFp3lglYntohcQjqvQ/viewform?usp=sf_link"
+							data-nav-section="feedback" role="button">Send Feedback (For Mobile)</a> <br>
+					</Center>
+
 				</div>
-				<Center>
-					<a class="btn btn-primary" href="feedback.html" data-nav-section="feedback" role="button">Send
-						Feedback (For PC)</a>
-					<a class="btn btn-primary"
-						href="https://docs.google.com/forms/d/e/1FAIpQLSc8wa8gmmlvyeVofsWhY70VshnO1SY0xFp3lglYntohcQjqvQ/viewform?usp=sf_link"
-						data-nav-section="feedback" role="button">Send Feedback (For Mobile)</a> <br>
-				</Center>
+
+
+			</div>
+			<div class="section-heading text-center to-animate">
+
+
 
 			</div>
 
 
+			</center>
+			</p>
 		</div>
-		<div class="section-heading text-center to-animate">
+		<div class="col-md-06">
+			<div class="iphone to-animate-2"><img src="" width="100" height="300">
 
-
-
-		</div>
-
-
-		</center>
-		</p>
-	</div>
-	<div class="col-md-06">
-		<div class="iphone to-animate-2"><img src="" width="100" height="300">
+			</div>
 
 		</div>
-
-	</div>
 	</div>
 	</div>
 	</div>
