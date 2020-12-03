@@ -165,9 +165,27 @@
 			color: #fff;
 			text-decoration: none;
 			outline: none;
+
 		}
 
-		.IntroName {}
+		.container_frame {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+			padding-top: 56.25%;
+			/* 16:9 Aspect Ratio */
+		}
+
+		.responsive-iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+		}
 	</style>
 	<!-- End demo purposes only -->
 
@@ -218,15 +236,15 @@
 			<div class="row" id="team">
 				<div class="col-md-12 section-heading text-center to-animate">
 					<h2>Feedback</h2>
-					<div class="img-fluid">
-						<iframe
+					<div class="container_frame">
+						<iframe class="responsive-iframe"
 							src="https://docs.google.com/forms/d/e/1FAIpQLSc8wa8gmmlvyeVofsWhY70VshnO1SY0xFp3lglYntohcQjqvQ/viewform?embedded=true"
 							width="640" height="1154" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
 					</div>
 					<center>
 						<a
-							href="https://docs.google.com/forms/d/e/1FAIpQLSc8wa8gmmlvyeVofsWhY70VshnO1SY0xFp3lglYntohcQjqvQ/viewform?usp=sf_link">For
+							href="https://docs.google.com/forms/d/e/1FAIpQLSc8wa8gmmlvyeVofsWhY70VshnO1SY0xFp3lglYntohcQjqvQ/viewform?usp=sf_link">
+							For
 							Mobile</p>
 					</center>
 				</div>
